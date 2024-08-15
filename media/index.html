@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" >
+
+    <script>// Ensure that this script runs after the DOM is fully loaded
+      document.addEventListener('DOMContentLoaded', function () {
+          var myCarousel = document.querySelector('#carouselExampleIndicators');
+          var carousel = new bootstrap.Carousel(myCarousel, {
+              interval: 2000,  // Time delay between automatic cycling of items (in milliseconds)
+              wrap: true       // Whether the carousel should cycle continuously or have hard stops
+          });
+      });
+      </script>
+    <title>Shop It</title>
+</head>
+
+<body id="Top">
+  <section style="border-style: groove;" class="header_menu" id="header_menu">
+        <div class="container-fluid">   
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <a class="navbar-brand" href="index.html">
+                    <img style="height: 35px; border-color: black; border-style: double; margin: 1px 1px 1px 1px;" src="media/9149134.png" alt="Error">
+                  </a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="index.html"><b>Home</b> <span class="sr-only"></span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="media/product.html"><b>Product</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="media/category.html"><b>Category</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="media/about.html"><b>About</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="media/contact.html"><b>Contact</b></a>
+                      </li>
+                     <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li> -->
+                    </ul>
+                    
+                     <div class="search mr-3">
+                     <a href="media/search.html" class="btn btn-sm btn-outline-primary">Search</a>
+                     </div>
+                     <div style="font-size: xx-large;" class="cart">
+                        <a href="media/cart.html">
+                          <i class="fa-regular fa-box-archive"></i>
+                          <span class="badge badge-pill badge-primary">🛒</span> 
+                        </a>
+                     </div>
+            </div>
+        </nav>
+       </div>
+    </section>
+
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media/Chisato_Nishikigi-Lycoris_Recoil.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="media/saku.jfif.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="media/Demon_Slayer-Kanao.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button></div>
+
+    <!--shop by category-->
+    <section class="shop _by_category py-5 my-5" id="shop_by_category">
+      <div class="container-fluid">
+      <div class="section_title text-center mb-5">
+      <h1 class="text-capitalize">Shop By category</h1>
+      </div>
+       <div class="row">
+       <div class="col-md-4 col-12">
+       <div class="card bg-dark text-white">
+         <a href="category-html">
+         <img class="card-img img img-fluid" src="media/demon-slayer-kimetsu-no-yaiba-team_a21ubm2UmZqaraWkpJRnZWVlrWZnZWU.jpg" alt="Card image">
+         </a>
+       </div>
+       </div>
+        <div Class=" col-md-4 col-12 mt-small-5 mb-small-5">
+        <div class="card bg-dark text-white">
+           <a href="media/category.html">
+           <img class="card-img img img-fluid" src="media/Bond-Anya-Loid-Yor-Spy_x_Family.jpg" alt="Card image">
+           </a>
+          </div>
+          </div>
+         <div class="col-md-4 col-12">
+         <div class="card bg-dark text-white">
+            <a href="media/category.html">
+            <img class="card-img img img-fluid" src="media/anime-naruto-minato-namikaze-wallpaper-preview.jpg" alt="Card image">
+            </a>
+          </div>
+        </div>
+       </div>
+       </div>
+     </section>
+
+     
+     <!--latest products-->
+
+     <section class="products py-5 my-5 bg-light" id="products">
+<div class="container ">
+<div class="section title text-center mb-5">
+<h1 class="text-capitalize">Latest Products</h1>
+</div>
+<div class="row mb-5">
+<div class="col-md-4 col-12">
+<div class="single_product shadow text-center p-1">
+<div class="product_img">
+<a href="media/product_detail.html"><img src="media/Demon_Slayer-Kyojuro_Rengoku (2).jpg" class="img img-fluid" alt=""></a>
+<div class="new_product">
+  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+
+</div>
+</div>
+<div class="product-caption my-3">
+<div class="product-ratting">
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star low-star"></i>
+<i class="far fa-star low-star"></i>
+</div>
+<h4><a href="media/product_detail.html">Green Dress with details</a></h4>
+<div class="price">
+
+<b><span class="mr-1">$</span><span>400</span></b>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12">
+<div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+  <div class="product_img">
+    <a href="media/product_detail.html"><img src="media/AnimeX_598786.jpeg" class= "img img-fluid" alt=***></a>
+    <div class="new_product">
+    <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+    </div>
+    </div>
+    <div class="product-caption my-3">
+    <div class="product-ratting"> 
+      <i class="far fa-star"></i> 
+      <i class="far fa-star"></i>
+      <i class="far fa-star"></i>
+      <i class="far fa-star low-star"></i>
+      <i class="far fa-star low-star"></i>
+    </div>
+    <h4><a href="media/product_detail.html">Green Dress with details</a></h4>
+    <div class="price">
+    <b><span class="mr-1">$</span><span>400</span></b>
+    </div>
+   </div>
+  </div>
+  </div>
+  <div class="col-md-4 col-12">
+    <div class="single_product shadow text-center p-1">
+    <div class="product_img">
+    <a href="media/product_detail.html"><img src="media/demon_slayer-kanao_tsuyuri_shinobu_kochou (2).jpg" class="img img-fluid" alt=""></a>
+    <div class="new_product">
+      <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+    
+    </div>
+    </div>
+    <div class="product-caption my-3">
+    <div class="product-ratting">
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    <i class="far fa-star low-star"></i>
+    <i class="far fa-star low-star"></i>
+    </div>
+    <h4><a href="media/product_detail.html">Green Dress with details</a></h4>
+    <div class="price">
+    
+    <b><span class="mr-1">$</span><span>400</span></b>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+
+  <section class="feature py-5 mt-5" id="feature">
+<div class="container">
+<div class="section_title text-center mb-5">
+<h1 class= "text-capitalize">Our Features</h1>
+</div>
+<div class="row text-black">
+<div class="col-md-4 col-12 shadow p-3">
+<div class="text-center">
+<div class="mb-4">
+<i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i>
+<div>
+<h3>Free Shipping Method</h3>
+</div>
+</div>
+<div>
+Lorem ipsum dolor
+sit amet consectetur adipisicing elit. Dignissimos impedit id accusamus quas maxime
+expedita
+nostrum atque delectus deleniti ad modi repellat debitis ipsam quisquam amet, odit voluptate recusandae distinctio? Perferendis tenetur quibusdam porro dolor dignissimos id magnam debitis vitae?
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12 shadow p-3 mt-small-5 mb-small-5">
+<div class="text-center">
+<div class="mb-4">
+<i class="fas fa-lock fa-3x mb-3 pt-2"></i>
+<div>
+<h3>Secure Payment System</h3>
+</div>
+</div>
+<div>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, fugit hic deserunt unde numquam tempora vel dolorum impedit laudantium maxime ab libero similique porro eveniet provident, sint animi blanditiis nesciunt?
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12 shadow p-3">
+  <div class="text-center">
+  <div class="mb-4">
+  <i class="fas fa-shipping-fast fa-3x mb-3 pt-2"></i>
+  <div>
+  <h3>Fast Delivery</h3>
+  </div>
+  </div>
+  <div>
+  Lorem ipsum dolor
+  sit amet consectetur adipisicing elit. Dignissimos impedit id accusamus quas maxime
+  expedita
+  nostrum atque delectus deleniti ad modi repellat debitis ipsam quisquam amet, odit voluptate recusandae distinctio? Perferendis tenetur quibusdam porro dolor dignissimos id magnam debitis vitae?
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!--footer-->
+<section style="border-top-style: groove ;" class="footer_section pt-5 pb-2" id="footer_section">
+<Footer>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-3 col-6 pl-5 pl-small-15">
+<div class="footer_title">
+<a href="index.html"><img src="media/9149134.png" width="150px" class="img img-fluid" alt="logo"></a>
+</div>
+<div>
+Lorem
+ipsum dolor,
+sit amet consectetur adipisicing elit. Impedit, totam est illum ipsum quas ad
+dignissimos
+magni veritatis natus voluptatem.
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+<h3>Quick Links</h3>
+</div>
+<div class="footer_links">
+<ul>
+<li><a href="media/about.html">About</a></li>
+<li><a href="javascript:;">Offers & Discounts</a></li>
+<li><a href="javascript:;">Get Coupon</a</li> 
+<li><a href="media/contact.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-3 col-6">
+<div class="footer_title pt-3 mb-3">
+  <h3>New Products</h3>
+</div>
+<div class="footer_links">
+  <ul>
+  
+  <li><a href="javascript:;">Woman Cloth</a</li>
+    <li><a href="javascript:;">Fashio Accessories</a</li>
+      <li><a href="javascript:;">Man Accessories</a</li>
+        <li><a href="javascript:;">Toys</a></li>
+ 
+  </ul>
+  </div>
+</div>
+<div class="col-md-3 col-6">
+  <div class="footer_title pt-3 mb-3">
+    <h3>Support</h3>
+  </div>
+  <div class="footer_links">
+  <ul>
+    <li><a href="javascript:;">Frequently asked questions</a></li>
+    <li><a href="javascript:;">Terms and conditions</a></li>
+    <li><a href="javascript:;">Privacy Policy</a></li>
+    <li><a href="javascript:;">Report a Payment issue</a></li>
+  </ul>
+  </div></div></div></div>
+  <div class="border-top">
+    <h6 class = "text-center mt-3">Copyright @2020 All rights reserved </h6>
+    </div>
+    </Footer>
+  </section>
+  <div style="position: absolute; margin-left: 50%;" class="backtop">
+    <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+    <i class="fas fa-chevron-up text-dark"></i>
+    </a>
+    </div>
+
+ <!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
+                   
+
+
+
+
+                   
