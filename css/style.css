@@ -1,0 +1,27 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-item:hover{
+    text-shadow: 0 0 10px #fffe01, 0 0 20px #fffe01, 0 0 30px #fffe01, 0 0 40px #fffe01;
+}
+.nav-item{
+    font-weight: 700;
+    font-size: large;
+}
+.container-fluid{
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(177,177,177,1) 100%);
+}
+.product-caption:hover{
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua; 
+}
+.mt-3:hover{
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua; 
+}
+.welcome{
+    margin-left: 64%;
+    margin-right: 2%;
+    margin-top: -25%;
+    margin-bottom:4%;
+}
